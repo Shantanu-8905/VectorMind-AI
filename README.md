@@ -25,12 +25,10 @@ An intelligent, document-aware chatbot that blends **FAISS vector search**, **to
 
 ## ⚡ Quick Start
 
-### 1. Clone and Install
-```bash
+## Clone and Install
 git clone https://github.com/<your-username>/ollama-vectorchat.git
 cd ollama-vectorchat
-
-🎯 Usage
+## 🎯 Usage
 Upload PDF/Text documents
 
 Select your preferred LLM model (auto-detect installed models)
@@ -39,7 +37,7 @@ Ask contextual questions — top-k results retrieved via FAISS
 
 Toggle Safe Prompt Mode if document context isn’t needed
 
-📌 Why this Project?
+## 📌 Why this Project?
 This project demonstrates real-world RAG (Retrieval Augmented Generation) architecture with:
 
 Offline-first LLM inference via Ollama

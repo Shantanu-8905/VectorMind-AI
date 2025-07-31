@@ -48,6 +48,4 @@ High-performance vector similarity search
 
 Clean UX with theming and custom avatars
 
-Resume-ready proof of building a full-stack AI application
-
 

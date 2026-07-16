@@ -505,8 +505,8 @@
 
 
 
-
 import streamlit as st
+# import frontend
 import faiss
 import numpy as np
 import pickle

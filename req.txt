@@ -1,2 +1,15 @@
-pip install streamlit faiss-cpu sentence-transformers transformers fitz PyMuPDF requests nltk
+# VectorMind-AI dependencies
+# Install with:  pip install -r req.txt
+#
+# NOTE: Do NOT add a package named "fitz" here. PyMuPDF already provides the
+# `fitz` import. The standalone PyPI "fitz" package is an unrelated (broken)
+# project and will shadow PyMuPDF, causing `import fitz` to crash.
 
+streamlit
+faiss-cpu
+sentence-transformers
+transformers
+torch
+PyMuPDF
+requests
+nltk

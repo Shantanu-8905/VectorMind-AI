@@ -1,0 +1,10 @@
+# Streamlit configuration for VectorMind-AI
+#
+# fileWatcherType = "none" disables Streamlit's source-file watcher.
+# The watcher walks every imported module to find its path, and when it reaches
+# PyTorch's `torch.classes` module it triggers:
+#   RuntimeError: Tried to instantiate class '__path__._path', but it does not exist
+# Disabling the watcher avoids that noisy (harmless) traceback. The only trade-off
+# is losing auto-reload on file save — press "R" in the browser or restart to reload.
+[server]
+fileWatcherType = "none"
